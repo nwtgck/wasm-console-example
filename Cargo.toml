@@ -1,0 +1,13 @@
+[package]
+name = "wasm_console_example"
+version = "0.1.0"
+authors = ["Ryo Ota <nwtgck@nwtgck.org>"]
+edition = "2018"
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2.67"
+wasm-console = { git = "https://github.com/nwtgck/wasm-console", rev = "8d50c7a7ace3322f327be9da9cc6d503826ef0a5" }
