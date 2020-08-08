@@ -10,4 +10,4 @@ crate-type = ["cdylib"]
 
 [dependencies]
 wasm-bindgen = "0.2.67"
-wasm-console = { git = "https://github.com/nwtgck/wasm-console", rev = "af75ff93899cf866596b7ec907a415439bf6acf8" }
+wasm-console = { git = "https://github.com/nwtgck/wasm-console", rev = "9ac5a803d11cf0c907d64db9868113074bc363ee" }
