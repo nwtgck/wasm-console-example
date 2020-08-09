@@ -8,6 +8,15 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
+      # (from: https://github.com/actions/cache/blob/d29c1df198dd38ac88e0ae23a2881b99c2d20e68/examples.md#rust---cargo)
+      - uses: actions/cache@v2
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            ~/.rustup
+            target
+          key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
 
       - run: npm ci
       - run: npm run build
