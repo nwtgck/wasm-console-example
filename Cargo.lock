@@ -128,7 +128,7 @@ checksum = "93b162580e34310e5931c4b792560108b10fd14d64915d7fff8ff00180e70092"
 [[package]]
 name = "wasm-console"
 version = "0.1.0-SNAPSHOT"
-source = "git+https://github.com/nwtgck/wasm-console?rev=9ac5a803d11cf0c907d64db9868113074bc363ee#9ac5a803d11cf0c907d64db9868113074bc363ee"
+source = "git+https://github.com/nwtgck/wasm-console?rev=4cc703a48c02039beb52a9a2a613f6856aec561d#4cc703a48c02039beb52a9a2a613f6856aec561d"
 dependencies = [
  "js-sys",
  "wasm-bindgen",
